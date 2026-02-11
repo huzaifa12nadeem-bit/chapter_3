@@ -7,9 +7,9 @@ int main() {
 
     int x;
                                     // stream operators
-    cout << endl;                   // ostream (output)
+    cout <<"prompt" <<  endl;                   // ostream (output)
     cin >> x;                       // istream (input)
 
-    cout << endl;
+    cout << x << endl;
     return 0;
 }
