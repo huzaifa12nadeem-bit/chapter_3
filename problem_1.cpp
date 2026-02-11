@@ -1,17 +1,28 @@
 #include <iostream>
+#include <time.h> 
 using namespace std;
 
 int main() 
 {
+ 
     cout << " " << endl;
-    float x;             
+    int a ;
+    int x;             
     cout <<"First Value:" <<  endl;       
     cin >> x ; 
-    float y;             
+    int y;             
     cout <<"second Value:" <<  endl;       
     cin >> y ;
-    cout << "The final answer:" << " " << endl; 
-    cout << ( x / y ) ;  
+  
+    a =   ( x / y ) ;
+    cout  << "The final answer:" <<   endl; 
+    cout << a << endl; 
+    
+    float b = a ;
+    cout.setf(ios::fixed);
+    cout.precision(4);
+    cout << b << endl; 
+
     
     
     return 0;
